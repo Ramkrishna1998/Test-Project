@@ -3,12 +3,13 @@
 <body>
 
 <button onclick="myFunction()">Min Value</button>
+<p>Your Array : [2,3,1,4,5]</p>
+<p>Minimum value from Array :</p> 
+<p id="demo"> </p>
 
-<p id="demo"></p>
 
 <script>
 let A = [2,3,1,4,5]
-
 function myFunction() {
   document.getElementById("demo").innerHTML = Math.min(...A);
 }
